@@ -1,8 +1,8 @@
-# Karlsen-bot
+## create a .env file and enter your bot token 
 
-## put your bot token in kls.py
- ``Token = os.getenv("bot token ")``
+## open file kls.py and  your bot token name ie the name you saved the bot token as in the .env file.
 
-## put enter your channel id (channel you want to display price on) in stats.py 
-``self.channel_id =  your-channel-id #price feed channel``
+## open stats.py and put the respective channel ids.
+
+## then run ``pip install -r requirements.txt``
 
