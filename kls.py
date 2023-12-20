@@ -23,5 +23,5 @@ Cogs_list = [
 for Cog in Cogs_list:
     bot.load_extension(f'Cogs.{Cog}')
 
-Token = os.getenv("your bot token")
+Token = os.getenv("KARLSEN_BOT")
 bot.run(Token)
