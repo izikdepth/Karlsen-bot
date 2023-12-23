@@ -225,7 +225,7 @@ class stats(commands.Cog):
             next_halving_dt = datetime.strptime(next_halving_str, '%Y-%m-%d %H:%M:%S %Z')
             next_halving = next_halving_dt.strftime('%d/%m/%Y')
             
-            await channel.edit(name=f"halving: {next_halving}")
+            await channel.edit(name=f"Next Reduction: {next_halving}")
 
         except Exception as e:
             print(f"An unexpected error occurred: {str(e)}")
