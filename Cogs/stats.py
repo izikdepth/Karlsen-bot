@@ -36,12 +36,13 @@ def format_circulating_supply(circulating_supply):
 class stats(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.channel_id = 1187907809073958923 #price feed channel
-        self.hashrate_channel =1187905364482588743 # hashrate feed channel
+        self.channel_id = 1187905364482588743 #price feed channel
         self.marketcap_channel =1187905657916117102 #marketcap feed channel
-        self.circulating_supply_channel =1187905947927064627 #circulating supply feed channel
-        self.current_reward_channel =1187906295697784883 #current reward channel
-        self.halving_channel=1187906650338762772 #halving feed channel
+        self.circulating_supply_channel = 1187905947927064627  #circulating supply feed channel
+        self.hashrate_channel = 1187906295697784883# hashrate feed channel
+        self.current_reward_channel = 1187906650338762772  #current reward channel
+        self.halving_channel= 1187907809073958923 #halving feed channel
+        
         self.bot.ready = False
         self.update_kls_price.start() 
         self.update_hashrate.start()
