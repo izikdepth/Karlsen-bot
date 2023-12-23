@@ -36,7 +36,7 @@ def format_circulating_supply(circulating_supply):
 class stats(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.channel_id = #price feed channel
+        self.channel_id = 1187907809073958923 #price feed channel
         self.hashrate_channel =1187905364482588743 # hashrate feed channel
         self.marketcap_channel =1187905657916117102 #marketcap feed channel
         self.circulating_supply_channel =1187905947927064627 #circulating supply feed channel
